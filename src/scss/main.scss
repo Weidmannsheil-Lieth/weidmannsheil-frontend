@@ -1,0 +1,46 @@
+@import "variables";
+
+@import "global/margin";
+@import "global/margin-sm";
+@import "global/padding";
+@import "global/padding-sm";
+
+@import "global/spacing";
+@import "global/text";
+@import "global/sub";
+@import "global/item";
+
+@import "components/main/TheHeader";
+@import "components/main/TheFooter";
+@import "components/main/TheNavigation";
+@import "components/main/Heading";
+@import "components/main/Cookies";
+
+@import "components/loaders/Loader";
+@import "components/loaders/CircleLoader";
+
+@import "components/elements/Rout";
+@import "components/elements/RoutHistory";
+@import "components/elements/GalleryViewer";
+@import "components/elements/FullscreenButton";
+
+@import "mixins/Effects";
+
+@import "views/anmeldung/anmeldung";
+@import "views/ergebnisse/ergebnisse";
+@import "views/galerie/galerie";
+@import "views/home/home";
+@import "views/impressum/impressum";
+@import "views/links/links";
+@import "views/rechtliches/rechtliches";
+@import "views/training/training";
+@import "views/verein/verein";
+@import "views/weiterleitung/weiterleitung";
+
+html, body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}

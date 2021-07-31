@@ -1,0 +1,41 @@
+.weiterleitung {
+  .link {
+    color: $linkColor;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .redirect-button {
+    margin: 60px auto 20px auto;
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+    background: #00c900;
+    font-size: $fontSize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 8px 14px -6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 8px 14px -6px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 8px 14px -6px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+
+    span {
+      transition: 0.3s ease-in-out;
+    }
+  }
+
+  .redirect-button:hover {
+    box-shadow: 0 8px 14px -6px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 8px 14px -6px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 8px 14px -6px rgba(0, 0, 0, 0.6);
+    background: #04dd04;
+
+    span {
+      transform: scale(1.05);
+    }
+  }
+}

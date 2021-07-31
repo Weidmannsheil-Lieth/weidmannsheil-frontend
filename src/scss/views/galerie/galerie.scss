@@ -1,0 +1,18 @@
+.galerie {
+  .content {
+    padding: 0;
+    margin: 0;
+
+    .item {
+      padding-top: 100px;
+
+      .item-links {
+        padding: 100px 0 120px 0;
+
+        .item-link-container {
+          margin-bottom: 2px;
+        }
+      }
+    }
+  }
+}

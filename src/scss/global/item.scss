@@ -1,0 +1,146 @@
+.item {
+  width: 90%;
+  max-width: $displayLarge;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.item-title {
+  font-size: 55px;
+  width: 100%;
+  text-align: left;
+}
+
+.item-subtitle {
+  font-size: 35px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.item-smaller-title {
+  font-size: 27.5px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.item-text {
+  font-size: $fontSize;
+  letter-spacing: 0.35px;
+  width: 100%;
+  margin: 0 auto;
+  color: #232323;
+}
+
+.item-links {
+  width: 100%;
+  text-align: center;
+  line-height: $fontSize * 1.45;
+}
+
+.item-link,
+.item-link:visited,
+.item-link:link,
+.item-link:active {
+  font-size: $fontSize;
+  letter-spacing: 0.35px;
+  color: $linkColor;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.item-text.wrapped {
+  width: 80%;
+}
+
+.item-image {
+  width: 92.5%;
+  margin: 0 auto;
+
+  img {
+    width: 100%;
+  }
+}
+
+.item-divider-container {
+  width: 350px;
+  max-width: 100%;
+
+  .item-divider {
+    background: #999;
+    height: 1px;
+  }
+}
+
+.item-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+
+  .item-col-5 {
+    width: 38%;
+  }
+
+  .item-col-6 {
+    width: 47%;
+  }
+
+  .item-col-7 {
+    width: 55%;
+  }
+
+  .item-col-4 {
+    width: 30%;
+  }
+
+  .item-col-image {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .item-col-text {
+    width: 100%;
+  }
+}
+
+.item-row.row-reverse {
+  flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: $displaySmall) {
+  .item-title {
+    font-size: 40px;
+  }
+
+  .item-subtitle {
+    font-size: 30px;
+  }
+
+
+  .item-text.wrapped {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: $displayMedium) {
+  .item-row {
+    display: block;
+
+    .item-col-4, .item-col-5, .item-col-6, .item-col-7 {
+      width: 100%;
+    }
+  }
+
+  .item-image {
+    width: 100%;
+  }
+}

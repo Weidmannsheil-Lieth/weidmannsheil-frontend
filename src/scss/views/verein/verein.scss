@@ -1,0 +1,25 @@
+.verein {
+  .leadership {
+    .email {
+      font-size: $fontSize - 4px;
+      color: #676767;
+      font-style: italic;
+    }
+  }
+
+  @media only screen and (max-width: $displayMedium) {
+    .club-house {
+      .item-col-5 .item-col-image {
+        margin-top: 35px;
+      }
+
+      .item-col-6 .item-col-image {
+        margin-top: 60px;
+      }
+    }
+
+    .item-smaller-title {
+      font-size: 24px;
+    }
+  }
+}

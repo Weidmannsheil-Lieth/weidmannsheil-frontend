@@ -1,0 +1,39 @@
+.ergebnisse {
+  .item {
+    padding-top: 100px;
+
+    .item-links {
+      padding: 100px 0 120px 0;
+
+      .item-link-container {
+        margin-bottom: 2px;
+      }
+    }
+  }
+
+  .item:first-child {
+    padding-top: 0;
+  }
+
+  .item:last-child {
+    hr {
+      display: none;
+    }
+
+    .item-text {
+      padding-bottom: 90px;
+    }
+  }
+
+  @media only screen and (max-width: $displaySmall) {
+    .item {
+      .item-title {
+        font-size: 30px;
+      }
+
+      .item-divider {
+        max-width: 80%;
+      }
+    }
+  }
+}

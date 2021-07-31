@@ -1,0 +1,28 @@
+.divider {
+  width: 100%;
+  height: 1px;
+  background: #bbb;
+}
+
+hr {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  background: #bbb;
+  border: none;
+  height: 1px;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.loader-spacer {
+  padding: 135px 0;
+}

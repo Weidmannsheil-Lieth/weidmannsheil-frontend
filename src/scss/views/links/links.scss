@@ -1,0 +1,42 @@
+.links {
+  .link-row {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .link-col {
+      width: 32%;
+      -webkit-box-shadow: 0 0 8px -2px #000;
+      box-shadow: 0 0 8px -2px #000;
+      overflow: hidden;
+      margin-bottom: $spacing3;
+
+      .item-col-image {
+        display: flex;
+        transition: 0.3s ease-in-out;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .item-col-image:hover {
+        transform: scale(1.025);
+      }
+    }
+
+    @media only screen and (max-width: $displayMedium) {
+      & .link-col {
+        width: 47.5%;
+      }
+    }
+
+    @media only screen and (max-width: $displaySmall) {
+      & .link-col {
+        width: 100%;
+      }
+    }
+  }
+}

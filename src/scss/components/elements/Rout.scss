@@ -1,0 +1,95 @@
+.element-rout {
+  width: 100%;
+
+  .rout-container {
+    width: 95%;
+    max-width: 1350px;
+    margin: 0 auto;
+    position: relative;
+
+    .rout-image {
+      width: 100%;
+      background: #aaa;
+
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    .rout-bold {
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .rout-label {
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background: #eee6;
+      transition: 0.25s ease-in-out;
+
+      .rout-item {
+        width: 100%;
+        font-size: 40px;
+        text-align: center;
+      }
+    }
+
+    &:hover .rout-label {
+      opacity: 1;
+    }
+
+    @media only screen and (max-width: $displayLarge) {
+      & .rout-label .rout-item {
+        font-size: 30px;
+      }
+    }
+
+    @media only screen and (max-width: $displayMedium) {
+      & .rout-label {
+        position: relative;
+        opacity: 1;
+        margin-top: 30px;
+        background: #fff;
+
+        .rout-item {
+          font-size: 20px;
+        }
+      }
+    }
+
+    @media only screen and (max-width: $displaySmall) {
+      & .rout-label {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+        font-size: $fontSize;
+
+        .rout-item {
+          margin-top: 15px;
+
+          &:nth-child(1) {
+            order: 2;
+          }
+
+          &:nth-child(2) {
+            order: 1;
+          }
+
+          &:nth-child(3) {
+            order: 3;
+          }
+        }
+      }
+    }
+  }
+}

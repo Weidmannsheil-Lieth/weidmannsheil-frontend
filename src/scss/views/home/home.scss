@@ -1,0 +1,92 @@
+.home {
+  position: relative;
+  background: #fff;
+
+  .hero {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+    .hero-image {
+      width: 100%;
+      height: 100%;
+      background: #111;
+
+      img {
+        min-height: 100%;
+        min-width: 100%;
+        user-select: none;
+        pointer-events: none;
+      }
+    }
+
+    .hero-content {
+      color: #eee;
+      text-align: center;
+      font-size: 5.25vw;
+
+      position: absolute;
+      top: 48%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  @keyframes hero-hint-blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .hero-hint {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-right: 3px solid #ccc;
+    border-bottom: 3px solid #ccc;
+    animation: hero-hint-blink 2s linear 0s infinite;
+  }
+
+  .scroll-over {
+    z-index: 5;
+    position: relative;
+    margin-top: 100vh;
+    background: #fff;
+
+    .news, .notices {
+      max-width: ($displayLarge + $displayMedium) / 2;
+    }
+  }
+}
+
+@media only screen and (max-width: $displayLarge) {
+  .home .hero .hero-content {
+    font-size: 7vw;
+  }
+}
+
+@media only screen and (max-width: $displaySmall) {
+  .home .hero .hero-content {
+    font-size: 8.5vw;
+  }
+}

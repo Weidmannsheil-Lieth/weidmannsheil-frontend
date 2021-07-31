@@ -1,0 +1,61 @@
+.header {
+  width: 100%;
+  height: $headerHeight;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transition: none;
+
+  .nameLink {
+    text-decoration: none;
+    margin-left: 25px;
+
+    .nameContainer {
+      height: inherit;
+      display: flex;
+      align-items: center;
+      color: #ccc;
+      user-select: none;
+
+      .logoContainer {
+        height: $headerHeight - 10px;
+
+        .logo {
+          height: 100%;
+
+          img {
+            height: 100%;
+          }
+        }
+      }
+    }
+
+    .name {
+      margin-left: 18px;
+      font-size: 28px;
+    }
+  }
+}
+
+.header.scrolled {
+  background: #fff;
+  height: $headerHeight;
+  border-bottom: 1px solid #bbb;
+  transition: 0.2s ease-in-out;
+
+  .nameContainer {
+    color: #222;
+  }
+}
+
+@media only screen and (max-width: $displayLarge) {
+  .nameLink .nameContainer .name {
+    display: none;
+  }
+}

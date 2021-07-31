@@ -1,0 +1,110 @@
+.heading {
+  width: 100%;
+  height: $headingHeight;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  .heading-container {
+    width: inherit;
+    height: $headingHeight + 67.5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    .image-container {
+      width: inherit;
+      height: inherit;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      background: #000;
+
+      img {
+        object-fit: cover;
+        width: inherit;
+        height: inherit;
+      }
+    }
+
+    .heading-content {
+      width: inherit;
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 5;
+      position: relative;
+
+      .label {
+        font-size: 6vw;
+        color: #fff
+      }
+
+      @media only screen and (max-width: $displayLarge) {
+        .label {
+          font-size: 10vw;
+        }
+      }
+
+      .heading-menu {
+        font-size: 18px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding-bottom: 25px;
+        display: flex;
+        justify-content: center;
+
+        .heading-link {
+          text-align: center;
+          padding: 0 30px;
+
+          a {
+            color: #ccc;
+            text-decoration: none;
+            cursor: pointer;
+          }
+
+          a:hover {
+            border-bottom: 1px solid #bbb;
+            color: #eee;
+          }
+        }
+      }
+    }
+
+    @media only screen and (max-width: $displayMedium) {
+      .heading-content {
+        margin-top: 160px;
+        display: block;
+        text-align: center;
+
+        .label {
+          font-size: 75px;
+        }
+
+        .heading-menu {
+          margin-top: 45px;
+          position: relative;
+          display: block;
+
+          .heading-link {
+            margin-top: 3px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    @media only screen and (max-width: $displaySmall) {
+      .heading-content {
+        .label {
+          font-size: 60px;
+        }
+      }
+    }
+  }
+}
