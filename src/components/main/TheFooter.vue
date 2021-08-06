@@ -65,16 +65,16 @@
           </ul>
         </div>
         <div class="footer-list">
-          <a class="footer-list-title" href="/#/anmeldung">Anmeldung</a>
+          <a class="footer-list-title" href="/#/aufnahme">Aufnahme</a>
           <ul class="footer-list-content">
             <li>
-              <redirect-link href="/#/anmeldung/formulare" label="Formulare"/>
+              <redirect-link href="/#/aufnahme/formulare" label="Formulare"/>
             </li>
             <li>
-              <redirect-link href="/#/anmeldung/zusatz" label="Ergänzungen"/>
+              <redirect-link href="/#/aufnahme/zusatz" label="Ergänzungen"/>
             </li>
             <li>
-              <redirect-link href="/#/anmeldung/weiteres" label="Weiteres"/>
+              <redirect-link href="/#/aufnahme/weiteres" label="Weiteres"/>
             </li>
           </ul>
         </div>

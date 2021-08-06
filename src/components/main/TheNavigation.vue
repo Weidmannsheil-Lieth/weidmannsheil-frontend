@@ -29,8 +29,8 @@
         <a class="nav-button" href="/#/training" @click="toggleMenu(false)">
           Training
         </a>
-        <a class="nav-button" href="/#/anmeldung" @click="toggleMenu(false)">
-          Anmeldung
+        <a class="nav-button" href="/#/aufnahme" @click="toggleMenu(false)">
+          Aufnahme
         </a>
       </div>
     </div>

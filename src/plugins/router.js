@@ -37,7 +37,7 @@ newScrollRoute('/verein', 'verein', () => import('@/views/verein'))
 newScrollRoute('/ergebnisse', 'ergebnisse', () => import('@/views/ergebnisse'));
 newScrollRoute('/training', 'training', () => import('@/views/training'));
 newScrollRoute('/galerie', 'galerie', () => import('@/views/galerie'));
-newScrollRoute('/anmeldung', 'anmeldung', () => import('@/views/anmeldung'));
+newScrollRoute('/aufnahme', 'aufnahme', () => import('@/views/aufnahme'));
 
 
 const router = new VueRouter({
