@@ -1,5 +1,5 @@
 <template>
-  <div class="content leadership" id="leitung">
+  <div class="content leadership pb-1" id="leitung">
     <div class="item">
       <div class="item-title effects fade-in">Leitung</div>
       <div class="item-divider-container">
@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
+import {mapGetters} from "vuex";
 
 export default {
   data() {
@@ -39,11 +39,13 @@ export default {
   },
   methods: {
     getFadeInDelayClass(index) {
-      switch (index % 3) {
+      switch (index % 4) {
         case 2:
           return 'delay-1';
         case 3:
           return 'delay-2';
+        case 4:
+          return 'delay-3';
         default:
           return '';
       }
