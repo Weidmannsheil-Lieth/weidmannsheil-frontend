@@ -96,6 +96,11 @@
     width: 30%;
   }
 
+  .item-col-3 {
+    width: 24%;
+    margin: 0 auto;
+  }
+
   .item-col-image {
     width: 100%;
     display: flex;
@@ -125,7 +130,6 @@
     font-size: 30px;
   }
 
-
   .item-text.wrapped {
     width: 100%;
   }
@@ -135,7 +139,7 @@
   .item-row {
     display: block;
 
-    .item-col-4, .item-col-5, .item-col-6, .item-col-7 {
+    .item-col-3, .item-col-4, .item-col-5, .item-col-6, .item-col-7 {
       width: 100%;
     }
   }

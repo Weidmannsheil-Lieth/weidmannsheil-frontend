@@ -1,7 +1,71 @@
-import axios from "@/plugins/axios";
-
 const state = {
-  administrations: []
+  administrations: [
+    {
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/sabine-nickel.jpg",
+      name: "Sabine Nickel",
+      roles: "1. Vorsitzende"
+    },
+    {
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/stefan-mohr.jpg",
+      name: "Stefan Mohr",
+      roles: "2. Vorsitzende"
+    },
+    {
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/daniela-vollstedt.jpg",
+      name: "Daniela Vollstedt",
+      roles: "1. Schriftführerin\n1. Jugendwartin"
+    },
+    {
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/kathrin-heilmann.jpg",
+      name: "Kathrin Heilmann",
+      roles: "2. Schriftführerin"
+    },
+    {
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/torben-sbresny.jpg",
+      name: "Torben Sbresny",
+      roles: "1. Kassenwart"
+    },
+    {
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/karl-ludwig-overkamp.jpg",
+      name: "Karl-Ludwig Overkamp",
+      roles: "2. Kassenwart"
+    },
+    {
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/arne-hauenstein.jpg",
+      name: "Arne Hauenstein",
+      roles: "1. Sportwart"
+    },
+    {
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/default.jpg",
+      name: "Jan Sbresny",
+      roles: "2. Sportwart"
+    },
+    {
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/guenther-henning.jpg",
+      name: "Günther Henning",
+      roles: "3. Sportwart"
+    },
+    {
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/default.jpg",
+      name: "Finn-Ole Merz",
+      roles: "2. Jugendwart"
+    },
+    {
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/lennard-nickel.jpg",
+      name: "Lennard Nickel",
+      roles: "3. Jugendwart"
+    },
+    {
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/thomas-nohren.jpg",
+      name: "Thomas Nohren",
+      roles: "Beisitzer"
+    },
+    {
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/default.jpg",
+      name: "Hans-Barthold Schinckel",
+      roles: "Beisitzer"
+    },
+  ]
 };
 
 const getters = {
@@ -14,14 +78,7 @@ const mutations = {
   }
 };
 
-const actions = {
-  getAdministrations({commit}) {
-    return axios.get('/administration')
-      .then((response) => {
-        commit('SET_ADMINISTRATIONS', response.data.data);
-      })
-  }
-};
+const actions = {};
 
 export default {
   namespaced: true,

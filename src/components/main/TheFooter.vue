@@ -97,7 +97,7 @@
       </div>
     </div>
     <div class="dark-footer">
-      <a class="dark-footer-link" href="https://code-experience.org" target="_blank">
+      <a class="dark-footer-link" href="https://www.vollborn.dev" target="_blank">
         <div class="logo-container">
           <img :src="require('@/assets/vollborn.png')" alt=""/>
         </div>
