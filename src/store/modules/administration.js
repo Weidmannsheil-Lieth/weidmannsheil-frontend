@@ -11,6 +11,11 @@ const state = {
       roles: "2. Vorsitzende"
     },
     {
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/frank-nickel.jpg",
+      name: "Frank Nickel",
+      roles: "Platzwart"
+    },
+    {
       image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/daniela-vollstedt.jpg",
       name: "Daniela Vollstedt",
       roles: "1. Schriftführerin\n1. Jugendwartin"
@@ -61,7 +66,7 @@ const state = {
       roles: "Beisitzer"
     },
     {
-      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/default.jpg",
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/hans-barthold-schinckel.jpg",
       name: "Hans-Barthold Schinckel",
       roles: "Beisitzer"
     },
