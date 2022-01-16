@@ -43,6 +43,12 @@
 
       </div>
     </div>
+
+    <div class="text-center mb-8">
+      <a :href="calendarUrl" target="_blank" class="item-link">
+        Kalender ansehen
+      </a>
+    </div>
   </div>
 </template>
 
@@ -68,6 +74,9 @@ export default {
   },
   computed: {
     ...mapGetters('news', ['news']),
+    calendarUrl() {
+      return process.env.VUE_APP_BACKEND_URL + 'downloads/Kalender.pdf';
+    }
   },
   methods: {
     ...mapActions('news', ['getNews']),
