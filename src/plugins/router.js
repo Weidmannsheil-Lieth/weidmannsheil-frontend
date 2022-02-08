@@ -43,6 +43,7 @@ newScrollRoute('/aufnahme', 'aufnahme', () => import('@/views/aufnahme'));
 newRoute('*', 'not-found', () => import('@/views/not-found'));
 
 const router = new VueRouter({
+  mode: 'history',
   routes
 });
 

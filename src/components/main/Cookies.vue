@@ -5,7 +5,7 @@
         Diese Webseite verwendet Cookies.
       </div>
       <div class="link">
-        <a href="/#/rechtliches">Hier erfährst du mehr zum Datenschutz.</a>
+        <a href="/rechtliches">Hier erfährst du mehr zum Datenschutz.</a>
       </div>
     </div>
     <div class="close-button" @click="closeBanner">

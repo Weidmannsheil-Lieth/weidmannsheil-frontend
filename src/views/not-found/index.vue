@@ -12,7 +12,7 @@
           <br />Bitte überprüfe nochmal die eingegebene URL!
         </div>
         <div class="item-links mt-6">
-          <a class="item-link" href="/#/">
+          <a class="item-link" href="/">
             Zurück zur Startseite
           </a>
         </div>

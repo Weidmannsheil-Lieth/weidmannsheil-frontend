@@ -31,15 +31,15 @@ export default {
       buttonData: [
         {
           label: 'Zeiten',
-          href: '/#/training/zeiten'
+          href: '/training/zeiten'
         },
         {
           label: 'Anfahrt',
-          href: '/#/training/anfahrt'
+          href: '/training/anfahrt'
         },
         {
           label: 'Post',
-          href: '/#/training/post'
+          href: '/training/post'
         }
       ]
     }

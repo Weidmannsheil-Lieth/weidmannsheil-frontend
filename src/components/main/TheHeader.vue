@@ -1,6 +1,6 @@
 <template>
   <div id="header" class="header" :class="scrolled ? 'scrolled' : ''">
-    <a href="/#/" class="nameLink">
+    <a href="/" class="nameLink">
       <div class="nameContainer">
         <div class="logoContainer">
           <div class="logo">

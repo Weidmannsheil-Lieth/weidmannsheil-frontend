@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /weiterleitung
+Disallow: /weiterleitung/
+
+Sitemap: http://www.weidmannsheil-lieth.de/sitemap.xml

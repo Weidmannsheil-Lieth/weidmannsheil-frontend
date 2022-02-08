@@ -14,22 +14,22 @@
       </div>
 
       <div class="nav-buttons">
-        <a class="nav-button" href="/#/" @click="toggleMenu(false)">
+        <a class="nav-button" href="/" @click="toggleMenu(false)">
           Start
         </a>
-        <a class="nav-button" href="/#/verein" @click="toggleMenu(false)">
+        <a class="nav-button" href="/verein" @click="toggleMenu(false)">
           Verein
         </a>
-        <a class="nav-button" href="/#/ergebnisse" @click="toggleMenu(false)">
+        <a class="nav-button" href="/ergebnisse" @click="toggleMenu(false)">
           Ergebnisse
         </a>
-        <a class="nav-button" href="/#/galerie" @click="toggleMenu(false)">
+        <a class="nav-button" href="/galerie" @click="toggleMenu(false)">
           Galerie
         </a>
-        <a class="nav-button" href="/#/training" @click="toggleMenu(false)">
+        <a class="nav-button" href="/training" @click="toggleMenu(false)">
           Training
         </a>
-        <a class="nav-button" href="/#/aufnahme" @click="toggleMenu(false)">
+        <a class="nav-button" href="/aufnahme" @click="toggleMenu(false)">
           Aufnahme
         </a>
       </div>
