@@ -1,7 +1,7 @@
 <template>
   <div class="content youth" id="jugend">
     <div class="item">
-      <div class="item-title effects fade-in">Jugend</div>
+      <h2 class="item-title effects fade-in">Jugend</h2>
       <div class="item-divider-container">
         <div class="item-divider effects draw-to-right"></div>
       </div>
@@ -10,7 +10,7 @@
       </div>
       <div class="item-row mt-14 mt-sm-6">
         <div class="item-col-6 effects fade-from-left">
-          <div class="item-col-text item-text">
+          <p class="item-col-text item-text">
             Wir sind eine eigene Abteilung der Schützenbrüderschaft Weidmannsheil Klein Nordende Lieth und die Zukunft
             des Vereins. Die Jugendgruppe hat ihren eigenen Jugendvorstand und eine eigene Jugendkasse.
             <br/><br/>
@@ -22,7 +22,7 @@
             viel mit Konzentration, Aufmerksamkeit und Verantwortung zu tun. Mit fortlaufender Zeit erreicht man beim
             Schießen ein hohes Maß an Körperbeherrschung und übt sich in Disziplin. Nicht zuletzt wird man durch den
             präzise messbaren Erfolg zur weiteren Steigerung der persönlichen Leistung angespornt.
-          </div>
+          </p>
         </div>
         <div class="item-col-6 effects size-fade-in align-center">
           <div class="item-col-image mt-sm-5">
@@ -32,7 +32,7 @@
       </div>
       <div class="item-row mt-7 row-reverse">
         <div class="item-col-6 effects fade-from-right">
-          <div class="item-col-text item-text">
+          <p class="item-col-text item-text">
             Um den Schießsport aus zu üben benötigt man zwar eine entsprechende „Ausrüstung“. Diese müsst ihr aber nicht
             teuer im Sportfachhandel kaufen, denn ihr bekommt sie vom Verein während des Trainings gestellt. Mit dieser
             „Ausrüstung“ fahrt ihr dann auch zu den Meisterschaften wie Kreismeisterschaften, Landesmeisterschaften und
@@ -42,7 +42,7 @@
             Man kommt einfach in seinen Alltagsklamotten bei uns vorbei und schlüpft in seine „Ausrüstung“; und nach dem
             Training sitzen die Jugendlichen noch schön gemütlich beisammen und spielen Karten oder unterhalten sich
             einfach nur.
-          </div>
+          </p>
         </div>
         <div class="item-col-6 effects size-fade-in align-center">
           <div class="item-col-image mt-sm-5">
@@ -50,7 +50,7 @@
           </div>
         </div>
       </div>
-      <div class="item-text pt-7 effects fade-in">
+      <p class="item-text pt-7 effects fade-in">
         Uns geht es in der Jugendgruppe um die Gemeinschaft, um das Miteinander und das jeder so genommen wird wie er
         ist, mit all seinen Stärken und Schwächen.
         <br/><br/>
@@ -58,7 +58,7 @@
         Zeit gemeinsame Unternehmungen. Die Jugendgruppe unternimmt u.a. Ausflüge zu den Karl-May-Festspielen nach Bad
         Segeberg, feiert Weihnachtsfeiern u.a. Bowling und nimmt mit am vereinsinternen Spieleabend teil. Auch beim
         alljährlichen Schützenfest hilft die Jugendgruppe tatkräftig mit und unterstützt die Erwachsenen.
-      </div>
+      </p>
       <div class="item-image pt-14 effects size-fade-in">
         <img src="/assets/verein/jugend.jpg" alt=""/>
       </div>

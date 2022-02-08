@@ -1,7 +1,7 @@
 <template>
   <div class="content leadership pb-1" id="leitung">
     <div class="item">
-      <div class="item-title effects fade-in">Leitung</div>
+      <h2 class="item-title effects fade-in">Leitung</h2>
       <div class="item-divider-container">
         <div class="item-divider effects draw-to-right"></div>
       </div>
@@ -15,10 +15,10 @@
           <div class="item-image" style="max-width: 300px; margin: 0 auto">
             <img :src="administration.image" alt=""/>
           </div>
-          <div class="item-subtitle pt-5 pb-2 text-center">{{ administration.name }}</div>
-          <div class="item-text pb-5 whitespace-pre-line">
+          <p class="item-subtitle pt-5 pb-2 text-center">{{ administration.name }}</p>
+          <p class="item-text pb-5 whitespace-pre-line">
             {{ administration.roles }}
-          </div>
+          </p>
         </div>
       </div>
     </div>

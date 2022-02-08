@@ -17,6 +17,13 @@ export default {
     TheFooter,
     TheHeader,
     Cookies
+  },
+  metaInfo: {
+    title: 'Schützenbrüderschaft Weidmannsheil',
+    titleTemplate: '%s | Schützenbrüderschaft Weidmannsheil',
+    meta: [
+      { vmid: 'description', name: 'description', content: 'Willkommen auf der offiziellen Seite der Schützenbrüderschaft Weidmannsheil. Seit unser Vereinseintragung 1919 betreiben wir bei uns in Klein Nordende Sportschießen.' }
+    ]
   }
 };
 </script>

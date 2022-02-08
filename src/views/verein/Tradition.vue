@@ -1,7 +1,7 @@
 <template>
   <div class="content tradition" id="tradition">
     <div class="item">
-      <div class="item-title effects fade-in">Tradition</div>
+      <h2 class="item-title effects fade-in">Tradition</h2>
       <div class="item-divider-container">
         <div class="item-divider effects draw-to-right"></div>
       </div>

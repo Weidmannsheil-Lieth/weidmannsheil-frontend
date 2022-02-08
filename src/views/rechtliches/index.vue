@@ -3,7 +3,7 @@
     <heading label="Rechtliches" :buttons="buttonData"/>
     <div class="content">
       <div class="item">
-        <div class="item-title effects fade-in">Haftungsausschluss und Datenschutz</div>
+        <h2 class="item-title effects fade-in">Haftungsausschluss und Datenschutz</h2>
         <div class="item-divider-container">
           <div class="item-divider effects draw-to-right"></div>
         </div>
@@ -505,6 +505,12 @@
 import Heading from '@/components/main/Heading';
 
 export default {
+  metaInfo: {
+    title: "Rechtliches",
+    meta: [
+      { vmid: 'description', name: 'description', content: 'Alle rechtlichen Informationen zum Thema Datenschutz.' }
+    ]
+  },
   components: {
     Heading
   },

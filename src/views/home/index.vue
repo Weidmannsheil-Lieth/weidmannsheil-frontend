@@ -5,20 +5,20 @@
         <img :src="require('@/assets/background.jpg')" alt="" id="hero-image"/>
       </div>
       <div class="hero-content">
-        <div class="hero-title" id="hero-title">
+        <h1 class="hero-title" id="hero-title">
           Schützenbrüderschaft<br/>Weidmannsheil
-        </div>
+        </h1>
       </div>
       <div class="hero-hint"></div>
     </div>
     <div class="scroll-over">
       <div class="item">
-        <div class="item-title text-center pt-20 effects fade-in">
+        <h2 class="item-title text-center pt-20 effects fade-in">
           Willkommen
-        </div>
-        <div class="item-smaller-title text-center mt-2 pb-20 effects fade-in">
+        </h2>
+        <p class="item-smaller-title text-center mt-2 pb-20 effects fade-in">
           auf der offiziellen Webseite der Schützenbrüderschaft Weidmannsheil!
-        </div>
+        </p>
       </div>
       <div class="divider"/>
       <notices/>
@@ -26,7 +26,7 @@
       <news/>
       <div class="divider"/>
       <div class="item pt-16 pb-8">
-        <div class="item-title text-center effects fade-in">Königsgespann</div>
+        <h2 class="item-title text-center effects fade-in">Königsgespann</h2>
         <rout class="pb-20 pt-16"/>
       </div>
     </div>

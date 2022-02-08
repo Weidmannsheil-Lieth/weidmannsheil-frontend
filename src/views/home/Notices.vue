@@ -1,18 +1,18 @@
 <template>
   <div class="notices item pt-16 pb-8">
-    <div
+    <h2
       class="item-title text-center effects fade-in"
       :class="!isLoading ? 'mb-14 mb-sm-8' : ''"
     >
       Wichtige Hinweise
-    </div>
+    </h2>
 
     <loader v-if="isLoading" class="py-20"/>
 
     <div v-else-if="notices.length === 0">
-      <div class="item-text text-center mb-14">
+      <p class="item-text text-center mb-14">
         Momentan sind keine Einträge vorhanden.
-      </div>
+      </p>
     </div>
 
     <div v-else>
@@ -21,12 +21,12 @@
         :key="index"
         class="mb-14"
       >
-        <div class="item-subtitle pl-2 pb-4 effects fade-in">
+        <h3 class="item-subtitle pl-2 pb-4 effects fade-in">
           {{ notice.title }}
-        </div>
-        <div class="item-text pt-2 effects fade-in whitespace-pre-line">
+        </h3>
+        <p class="item-text pt-2 effects fade-in whitespace-pre-line">
           {{ notice.content }}
-        </div>
+        </p>
       </div>
     </div>
   </div>

@@ -5,12 +5,12 @@
 
       <loader v-if="isLoading" class="py-10"/>
 
-      <div
+      <p
         v-else-if="Object.keys(results).length === 0"
         class="item-text text-center py-10"
       >
         Momentan sind keine Einträge vorhanden.
-      </div>
+      </p>
 
       <div class="item" v-for="(category, index) in Object.keys(results)" :key="index">
         <div class="item-title">{{ category }}</div>
@@ -41,10 +41,10 @@
         class="item mt-10"
         v-if="Object.keys(results).length !== 0"
       >
-        <div class="item-text text-center">
+        <p class="item-text text-center">
           Die Ergebnisse können Weiterleitungen auf externe Webseiten enthalten.
           <br/>Für den Inhalt dieser Seiten ist die Schützenbrüderschaft nicht verantwortlich.
-        </div>
+        </p>
       </div>
 
     </div>
@@ -57,6 +57,12 @@ import {mapActions, mapGetters} from "vuex";
 import Loader from "@/components/loaders/Loader";
 
 export default {
+  metaInfo: {
+    title: "Ergebnisse",
+    meta: [
+      { vmid: 'description', name: 'description', content: 'Die Ergebnisse vergangener Turniere und Events unseres Vereins.' }
+    ]
+  },
   components: {
     Loader,
     Heading

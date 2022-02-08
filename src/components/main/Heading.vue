@@ -5,9 +5,9 @@
         <img :src="require('@/assets/background.jpg')" alt="" id="heading-image"/>
       </div>
       <div class="heading-content">
-        <div class="label" id="heading-title">
+        <h1 class="label" id="heading-title">
           {{ label }}
-        </div>
+        </h1>
         <div class="heading-menu">
           <div v-for="(button, index) in buttons" :key="index" class="heading-link">
             <a :href="button.href">

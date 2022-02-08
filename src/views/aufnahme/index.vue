@@ -3,21 +3,21 @@
     <heading label="Aufnahme" :buttons="buttonData"/>
     <div class="content">
       <div class="item">
-        <div class="item-subtitle text-center mt-8">
+        <h3 class="item-subtitle text-center mt-8">
           Hallo!
-        </div>
-        <div class="item-text text-center mt-6">
+        </h3>
+        <p class="item-text text-center mt-6">
           Du möchtest dem Verein beitreten?
           <br/>Dann bist du hier genau richtig.
           <br/>
           <br/>Weiter unten folgen einige Formulare, die du herunterladen und ausfüllen kannst.
           <br/>Bring diese einfach nächstes Mal zum Training mit!
-        </div>
+        </p>
       </div>
     </div>
     <div class="content" id="formulare">
       <div class="item">
-        <div class="item-title effects fade-in">Formulare</div>
+        <h2 class="item-title effects fade-in">Formulare</h2>
         <div class="item-divider-container">
           <div class="item-divider effects draw-to-right"></div>
         </div>
@@ -38,13 +38,13 @@
     </div>
     <div class="content" id="zusatz">
       <div class="item">
-        <div class="item-title effects fade-in">Ergänzungen</div>
+        <h2 class="item-title effects fade-in">Ergänzungen</h2>
         <div class="item-divider-container">
           <div class="item-divider effects draw-to-right"></div>
         </div>
-        <div class="item-text pt-18 text-center">
+        <p class="item-text pt-18 text-center">
           Falls du noch nicht volljährig bist, dann lass bitte deine Eltern noch diesen Zettel zusätzlich ausfüllen.
-        </div>
+        </p>
         <div class="item-links mt-4">
           <a class="item-link" :href="youthAdmissionApplyUrl" target="_blank">
             Anhang Aufnahmeantrag
@@ -54,7 +54,7 @@
     </div>
     <div class="content" id="weiteres">
       <div class="item">
-        <div class="item-title effects fade-in">Weiteres</div>
+        <h2 class="item-title effects fade-in">Weiteres</h2>
         <div class="item-divider-container">
           <div class="item-divider effects draw-to-right"></div>
         </div>
@@ -93,6 +93,12 @@ import Heading from '@/components/main/Heading';
 export default {
   components: {
     Heading
+  },
+  metaInfo: {
+    title: "Aufnahme",
+    meta: [
+      { vmid: 'description', name: 'description', content: 'Du hast Interesse, dem Verein beizutreten? Hier findest du die richtigen Formulare.' }
+    ]
   },
   data() {
     let downloadUrl = process.env.VUE_APP_BACKEND_URL + 'assets/downloads/';

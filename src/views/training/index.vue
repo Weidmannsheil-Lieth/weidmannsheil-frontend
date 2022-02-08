@@ -14,6 +14,12 @@ import Directions from "@/views/training/Directions";
 import Postal from "@/views/training/Postal";
 
 export default {
+  metaInfo: {
+    title: "Training",
+    meta: [
+      { vmid: 'description', name: 'description', content: 'Unsere Öffnungs- und Trainigszeiten, sowie ein Anfahrplan.' }
+    ]
+  },
   components: {
     Postal,
     Directions,

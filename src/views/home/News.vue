@@ -1,18 +1,18 @@
 <template>
   <div class="news item pt-16 pb-8">
-    <div
+    <h2
       class="item-title text-center effects fade-in"
       :class="!isLoading ? 'mb-14 mb-sm-8' : ''"
     >
       Aktuelles
-    </div>
+    </h2>
 
     <loader v-if="isLoading" class="py-20"/>
 
     <div v-else-if="news.length === 0">
-      <div class="item-text text-center mb-14">
+      <p class="item-text text-center mb-14">
         Momentan sind keine Einträge vorhanden.
-      </div>
+      </p>
     </div>
 
     <div v-else>
@@ -27,12 +27,12 @@
           class="item-col-7 effects"
           :class="isEven(index) ? 'fade-from-right' : 'fade-from-left'"
         >
-          <div class="item-col-text item-subtitle">
+          <h3 class="item-col-text item-subtitle">
             {{ article.title }}
-          </div>
-          <div class="item-col-text item-text pt-3 whitespace-pre-line">
+          </h3>
+          <p class="item-col-text item-text pt-3 whitespace-pre-line">
             {{ article.content }}
-          </div>
+          </p>
         </div>
 
         <div class="item-col-5 effects size-fade-in align-center mt-sm-8">

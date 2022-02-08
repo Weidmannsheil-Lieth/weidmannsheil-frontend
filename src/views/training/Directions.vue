@@ -1,13 +1,13 @@
 <template>
   <div class="content" id="anfahrt">
     <div class="item">
-      <div class="item-title effects fade-in">Anfahrt</div>
+      <h2 class="item-title effects fade-in">Anfahrt</h2>
       <div class="item-divider-container">
         <div class="item-divider effects draw-to-right"></div>
       </div>
       <div class="item-row mt-14 row-reverse">
         <div class="item-col-6 effects fade-from-right text-center">
-          <div class="item-col-text item-text pt-2">
+          <p class="item-col-text item-text pt-2">
             Schützenbrüderschaft "Weidmannsheil"
             <br/>Klein Nordende - Lieth von 1919 e.V.
             <br/>
@@ -19,7 +19,7 @@
             <br/>
             <br/><strong>E-Mail:</strong>
             <br/>vorstand@weidmannsheil-lieth.de
-          </div>
+          </p>
         </div>
         <div class="item-col-6 effects fade-from-left">
           <div class="item-col-image">

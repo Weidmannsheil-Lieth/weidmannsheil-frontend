@@ -22,6 +22,12 @@ import Heading from '@/components/main/Heading';
 import LinkRow from "@/views/links/LinkRow";
 
 export default {
+  metaInfo: {
+    title: "Links",
+    meta: [
+      { vmid: 'description', name: 'description', content: 'Eine Reihe von Verlinkungen zu unseren Sport-Kollegen.' }
+    ]
+  },
   components: {
     LinkRow,
     Heading

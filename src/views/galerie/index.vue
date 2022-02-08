@@ -5,9 +5,9 @@
 
       <div id="anzeige">
         <gallery-viewer v-if="!isLoading && album" :album="album"/>
-        <div v-if="!isLoading && !album" class="loader-spacer item-text text-center">
+        <p v-if="!isLoading && !album" class="loader-spacer item-text text-center">
           Momentan sind keine Einträge vorhanden.
-        </div>
+        </p>
       </div>
 
       <div id="alben">
@@ -18,7 +18,7 @@
             v-for="(entry, entryIndex) in galleryData"
             :key="entryIndex"
           >
-            <div class="item-title">{{ entry.year }}</div>
+            <h2 class="item-title">{{ entry.year }}</h2>
             <div class="item-divider-container">
               <div class="item-divider effects draw-to-right"></div>
             </div>
@@ -52,6 +52,12 @@ import Loader from '@/components/loaders/Loader';
 import {mapActions, mapGetters} from "vuex";
 
 export default {
+  metaInfo: {
+    title: "Galerie",
+    meta: [
+      { vmid: 'description', name: 'description', content: 'Einige Bilder aus der Schützenbrüderschaft.' }
+    ]
+  },
   components: {
     Heading,
     GalleryViewer,

@@ -5,6 +5,7 @@ import router from './plugins/router';
 import store from './store';
 import VueScrollTo from 'vue-scrollto';
 import Effects from "@/mixins/Effects";
+import VueMeta from 'vue-meta';
 import './scss/main.scss';
 import 'typeface-nunito';
 
@@ -15,7 +16,8 @@ import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 library.add(faChessKing, faChessQueen, faChessKnight, faChessPawn);
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-Vue.use(VueScrollTo)
+Vue.use(VueScrollTo);
+Vue.use(VueMeta);
 Vue.mixin(Effects);
 
 Vue.config.productionTip = false;

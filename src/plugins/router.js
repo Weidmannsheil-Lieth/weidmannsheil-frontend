@@ -39,6 +39,8 @@ newScrollRoute('/training', 'training', () => import('@/views/training'));
 newScrollRoute('/galerie', 'galerie', () => import('@/views/galerie'));
 newScrollRoute('/aufnahme', 'aufnahme', () => import('@/views/aufnahme'));
 
+// 404
+newRoute('*', 'not-found', () => import('@/views/not-found'));
 
 const router = new VueRouter({
   routes

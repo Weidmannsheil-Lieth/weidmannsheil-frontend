@@ -1,27 +1,27 @@
 <template>
   <div class="content" id="zeiten">
     <div class="item">
-      <div class="item-title effects fade-in">Trainingszeiten</div>
+      <h2 class="item-title effects fade-in">Trainingszeiten</h2>
       <div class="item-divider-container">
         <div class="item-divider effects draw-to-right"></div>
       </div>
       <div class="item-row mt-14 mt-sm-4">
         <div class="item-col-6 effects fade-from-left text-center">
-          <div class="item-smaller-title pt-7">
+          <h3 class="item-smaller-title pt-7">
             Jugendgruppe
-          </div>
-          <div class="item-col-text item-text pt-2">
-            Freitags: ab 18:30h - 21.00h
-          </div>
-          <div class="item-smaller-title pt-8">
+          </h3>
+          <p class="item-col-text item-text pt-2">
+            Freitags: ab 18.30h - 21.00h
+          </p>
+          <h3 class="item-smaller-title pt-8">
             Allgemein
-          </div>
-          <div class="item-col-text item-text pt-2">
+          </h3>
+          <p class="item-col-text item-text pt-2">
             Mittwochs: 19.00h - 21.00h
-          </div>
-          <div class="item-col-text item-text pt-1">
+          </p>
+          <p class="item-col-text item-text pt-1">
             Freitags: 19.00h - 21.00h
-          </div>
+          </p>
         </div>
         <div class="item-col-6 effects fade-from-right">
           <div class="item-col-image">
@@ -31,15 +31,15 @@
       </div>
       <div class="item-row mt-16 row-reverse">
         <div class="item-col-6 effects fade-from-right text-center">
-          <div class="item-smaller-title pt-7 pt-sm-1">
+          <h3 class="item-smaller-title pt-7 pt-sm-1">
             Frühschoppen
-          </div>
-          <div class="item-col-text item-text pt-2">
+          </h3>
+          <p class="item-col-text item-text pt-2">
             Training wenn Aufsicht da, möglich.
-          </div>
-          <div class="item-col-text item-text pt-2">
+          </p>
+          <p class="item-col-text item-text pt-2">
             Sonntags 10.00h - 11:30h
-          </div>
+          </p>
         </div>
         <div class="item-col-6 effects fade-from-left">
           <div class="item-col-image">

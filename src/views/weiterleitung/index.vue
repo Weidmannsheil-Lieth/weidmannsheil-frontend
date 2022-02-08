@@ -41,6 +41,12 @@ import Heading from '@/components/main/Heading';
 import Loader from "@/components/loaders/Loader";
 
 export default {
+  metaInfo: {
+    title: "Weiterleitung",
+    meta: [
+      { name: 'robots', content: 'noindex' },
+    ]
+  },
   components: {
     Loader,
     Heading

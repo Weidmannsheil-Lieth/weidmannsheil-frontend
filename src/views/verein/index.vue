@@ -18,6 +18,12 @@ import Youth from "@/views/verein/Youth";
 import Tradition from "@/views/verein/Tradition";
 
 export default {
+  metaInfo: {
+    title: "Verein",
+    meta: [
+      { vmid: 'description', name: 'description', content: 'Einige wissenswerte Informationen zu unserem Verein und dessen Geschichte.' }
+    ]
+  },
   components: {
     Tradition,
     Youth,
