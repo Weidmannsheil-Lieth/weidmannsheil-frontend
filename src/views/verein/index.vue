@@ -37,23 +37,23 @@ export default {
       buttonData: [
         {
           label: 'Über Uns',
-          href: '/verein/wir'
+          href: '/verein#wir'
         },
         {
           label: 'Heim',
-          href: '/verein/heim'
+          href: '/verein#heim'
         },
         {
           label: 'Leitung',
-          href: '/verein/leitung'
+          href: '/verein#leitung'
         },
         {
           label: 'Jugend',
-          href: '/verein/jugend'
+          href: '/verein#jugend'
         },
         {
           label: 'Tradition',
-          href: '/verein/tradition'
+          href: '/verein#tradition'
         }
       ]
     }

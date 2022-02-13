@@ -108,15 +108,15 @@ export default {
       buttonData: [
         {
           label: 'Formulare',
-          href: '/aufnahme/formulare'
+          href: '/aufnahme#formulare'
         },
         {
           label: 'Ergänzungen',
-          href: '/aufnahme/zusatz'
+          href: '/aufnahme#zusatz'
         },
         {
           label: 'Weiteres',
-          href: '/aufnahme/weiteres'
+          href: '/aufnahme#weiteres'
         }
       ]
     }

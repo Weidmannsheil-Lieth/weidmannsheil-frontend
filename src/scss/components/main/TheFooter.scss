@@ -21,25 +21,27 @@
 
         .footer-list-title {
           text-decoration: none;
-          color: #111;
-          font-weight: bold;
+          color: #333;
+          font-weight: 700;
           text-transform: uppercase;
         }
+      }
+    }
 
-        .footer-list-content {
-          list-style: none;
-          padding: 0;
-          margin-bottom: 8px;
+    .instagram-link-wrapper {
+      margin-top: 55px;
+      display: flex;
+      justify-content: center;
 
-          li {
-            list-style: none;
-            margin-bottom: 2px;
+      .instagram-link {
+        display: flex;
+        padding: 4px 16px;
+        color: #333;
+        text-decoration: none;
 
-            a {
-              text-decoration: none;
-              color: #111;
-            }
-          }
+        .instagram-link-icon {
+          margin-top: 1px;
+          margin-right: 6px;
         }
       }
     }

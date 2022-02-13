@@ -5,10 +5,6 @@ import store from "@/store";
 
 const routes = [];
 
-function getScrollName(name) {
-  return name + 'Scroll';
-}
-
 function newRoute(path, name, component) {
   routes.push(
     {
@@ -19,27 +15,16 @@ function newRoute(path, name, component) {
   )
 }
 
-function newScrollRoute(path, name, component) {
-  newRoute(path, name, component);
-  newRoute(path + '/:scroll', getScrollName(name), component)
-}
-
-
-// Routes
 newRoute('/', 'home', () => import('@/views/home'));
 newRoute('/impressum', 'impressum', () => import('@/views/impressum'));
 newRoute('/links', 'links', () => import('@/views/links'));
 newRoute('/rechtliches', 'rechtliches', () => import('@/views/rechtliches'));
 newRoute('/weiterleitung/:id', 'weiterleitung', () => import('@/views/weiterleitung'));
-
-// ScrollRoutes
-newScrollRoute('/verein', 'verein', () => import('@/views/verein'))
-newScrollRoute('/ergebnisse', 'ergebnisse', () => import('@/views/ergebnisse'));
-newScrollRoute('/training', 'training', () => import('@/views/training'));
-newScrollRoute('/galerie', 'galerie', () => import('@/views/galerie'));
-newScrollRoute('/aufnahme', 'aufnahme', () => import('@/views/aufnahme'));
-
-// 404
+newRoute('/verein', 'verein', () => import('@/views/verein'))
+newRoute('/ergebnisse', 'ergebnisse', () => import('@/views/ergebnisse'));
+newRoute('/training', 'training', () => import('@/views/training'));
+newRoute('/galerie', 'galerie', () => import('@/views/galerie'));
+newRoute('/aufnahme', 'aufnahme', () => import('@/views/aufnahme'));
 newRoute('*', 'not-found', () => import('@/views/not-found'));
 
 const router = new VueRouter({
@@ -48,21 +33,19 @@ const router = new VueRouter({
 });
 
 router.beforeEach((to, from, next) => {
-  if (!(to.name === getScrollName(to.name) || from.name === getScrollName(from.name))) {
-    window.scrollTo({
-      left: 0,
-      top: 0,
-      behavior: "auto"
-    })
-  }
+  window.scrollTo({
+    left: 0,
+    top: 0,
+    behavior: "auto"
+  });
   next();
 });
 
 router.afterEach((to) => {
   store.dispatch('menu/toggleMenu');
   Vue.nextTick().then(() => {
-    if (to.params.scroll) {
-      setTimeout(() => VueScrollTo.scrollTo('#' + to.params.scroll, {duration: 1000}), 500)
+    if (to.hash) {
+      setTimeout(VueScrollTo.scrollTo(to.hash), 500);
     } else {
       window.scrollTo(0, 0);
     }
