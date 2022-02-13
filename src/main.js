@@ -7,7 +7,14 @@ import VueScrollTo from 'vue-scrollto';
 import Effects from "@/mixins/Effects";
 import VueMeta from 'vue-meta';
 import './scss/main.scss';
-import 'typeface-nunito';
+import 'typeface-nunito'
+
+Vue.component('ItemRow', () => import("@/components/item/ItemRow"));
+Vue.component('ItemCol', () => import("@/components/item/ItemCol"));
+Vue.component('ItemColText', () => import("@/components/item/ItemColText"));
+Vue.component('ItemTitle', () => import("@/components/item/ItemTitle"));
+Vue.component('ItemText', () => import("@/components/item/ItemText"));
+Vue.component('ItemDivider', () => import("@/components/item/ItemDivider"));
 
 import {library} from '@fortawesome/fontawesome-svg-core'
 import {faChessKing, faChessKnight, faChessPawn, faChessQueen} from '@fortawesome/free-solid-svg-icons'

@@ -5,18 +5,16 @@
 
       <loader v-if="isLoading" class="py-10"/>
 
-      <p
+      <ItemText
         v-else-if="Object.keys(results).length === 0"
-        class="item-text text-center py-10"
+        class="text-center py-10"
       >
         Momentan sind keine Einträge vorhanden.
-      </p>
+      </ItemText>
 
       <div class="item" v-for="(category, index) in Object.keys(results)" :key="index">
-        <div class="item-title">{{ category }}</div>
-        <div class="item-divider-container">
-          <div class="item-divider effects draw-to-right"></div>
-        </div>
+        <ItemTitle>{{ category }}</ItemTitle>
+        <ItemDivider />
         <div class="item-links">
           <div
             class="item-link-container"
@@ -41,10 +39,10 @@
         class="item mt-10"
         v-if="Object.keys(results).length !== 0"
       >
-        <p class="item-text text-center">
+        <ItemText class="text-center">
           Die Ergebnisse können Weiterleitungen auf externe Webseiten enthalten.
           <br/>Für den Inhalt dieser Seiten ist die Schützenbrüderschaft nicht verantwortlich.
-        </p>
+        </ItemText>
       </div>
 
     </div>

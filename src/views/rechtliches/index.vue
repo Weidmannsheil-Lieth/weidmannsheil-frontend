@@ -3,14 +3,12 @@
     <heading label="Rechtliches" :buttons="buttonData"/>
     <div class="content">
       <div class="item">
-        <h2 class="item-title effects fade-in">Haftungsausschluss und Datenschutz</h2>
-        <div class="item-divider-container">
-          <div class="item-divider effects draw-to-right"></div>
-        </div>
-        <div class="item-subtitle mt-12">
+        <ItemTitle class="effects fade-in">Haftungsausschluss und Datenschutz</ItemTitle>
+        <ItemDivider />
+        <ItemTitle size="2" class="mt-12">
           Datenschutzerklärung
-        </div>
-        <div class="item-text wrapped mt-8">
+        </ItemTitle>
+        <ItemText class="wrapped mt-8">
           Wir freuen uns sehr über Ihr Interesse an unserem Verein. Datenschutz hat einen besonders hohen Stellenwert
           für den Vorstand der Schützenbrüderschaft Weidmannsheil Klein Nordende Lieth v. 1919 e.V.. Eine Nutzung der
           Internetseiten der Schützenbrüderschaft Weidmannsheil Klein Nordende Lieth v. 1919 e.V. ist grundsätzlich ohne
@@ -33,11 +31,11 @@
           können Internet basierte Datenübertragungen grundsätzlich Sicherheitslücken aufweisen, sodass ein absoluter
           Schutz nicht gewährleistet werden kann. Aus diesem Grund steht es jeder betroffenen Person frei,
           personenbezogene Daten auch auf alternativen Wegen, beispielsweise telefonisch, an uns zu übermitteln.
-        </div>
-        <div class="item-subtitle mt-12">
+        </ItemText>
+        <ItemTitle size="2" class="mt-12">
           1. Begriffsbestimmungen
-        </div>
-        <div class="item-text wrapped mt-8">
+        </ItemTitle>
+        <ItemText class="wrapped mt-8">
           Die Datenschutzerklärung der Schützenbrüderschaft Weidmannsheil Klein Nordende Lieth v. 1919 e.V. beruht auf
           den
           Begrifflichkeiten, die durch den Europäischen Richtlinien- und Verordnungsgeber beim Erlass der
@@ -46,112 +44,112 @@
           gewährleisten, möchten wir vorab die verwendeten Begrifflichkeiten erläutern.
           <br/><br/>
           Wir verwenden in dieser Datenschutzerklärung unter anderem die folgenden Begriffe:
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           a) personenbezogene Daten
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare
           natürliche Person (im Folgenden „betroffene Person“) beziehen. Als identifizierbar wird eine natürliche Person
           angesehen, die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer
           Kennnummer, zu Standortdaten, zu einer Online-Kennung oder zu einem oder mehreren besonderen Merkmalen, die
           Ausdruck der physischen, physiologischen, genetischen, psychischen, wirtschaftlichen, kulturellen oder
           sozialen Identität dieser natürlichen Person sind, identifiziert werden kann.
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           b) betroffene Person
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Betroffene Person ist jede identifizierte oder identifizierbare natürliche Person, deren personenbezogene
           Daten von dem für die Verarbeitung Verantwortlichen verarbeitet werden.
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           c) Verarbeitung
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Verarbeitung ist jeder mit oder ohne Hilfe automatisierter Verfahren ausgeführte Vorgang oder jede solche
           Vorgangsreihe im Zusammenhang mit personenbezogenen Daten wie das Erheben, das Erfassen, die Organisation, das
           Ordnen, die Speicherung, die Anpassung oder Veränderung, das Auslesen, das Abfragen, die Verwendung, die
           Offenlegung durch Übermittlung, Verbreitung oder eine andere Form der Bereitstellung, den Abgleich oder die
           Verknüpfung, die Einschränkung, das Löschen oder die Vernichtung.
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           d) Einschränkung der Verarbeitung
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Einschränkung der Verarbeitung ist die Markierung gespeicherter personenbezogener Daten mit dem Ziel, ihre
           künftige Verarbeitung einzuschränken.
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           e) Profiling
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Profiling ist jede Art der automatisierten Verarbeitung personenbezogener Daten, die darin besteht, dass diese
           personenbezogenen Daten verwendet werden, um bestimmte persönliche Aspekte, die sich auf eine natürliche
           Person beziehen, zu bewerten, insbesondere, um Aspekte bezüglich Arbeitsleistung, wirtschaftlicher Lage,
           Gesundheit, persönlicher Vorlieben, Interessen, Zuverlässigkeit, Verhalten, Aufenthaltsort oder Ortswechsel
           dieser natürlichen Person zu analysieren oder vorherzusagen.
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           f) Pseudonymisierung
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Pseudonymisierung ist die Verarbeitung personenbezogener Daten in einer Weise, auf welche die
           personenbezogenen Daten ohne Hinzuziehung zusätzlicher Informationen nicht mehr einer spezifischen betroffenen
           Person zugeordnet werden können, sofern diese zusätzlichen Informationen gesondert aufbewahrt werden und
           technischen und organisatorischen Maßnahmen unterliegen, die gewährleisten, dass die personenbezogenen Daten
           nicht einer identifizierten oder identifizierbaren natürlichen Person zugewiesen werden.
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           g) Verantwortlicher oder für die Verarbeitung Verantwortlicher
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Verantwortlicher oder für die Verarbeitung Verantwortlicher ist die natürliche oder juristische Person,
           Behörde, Einrichtung oder andere Stelle, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der
           Verarbeitung von personenbezogenen Daten entscheidet. Sind die Zwecke und Mittel dieser Verarbeitung durch das
           Unionsrecht oder das Recht der Mitgliedstaaten vorgegeben, so kann der Verantwortliche beziehungsweise können
           die bestimmten Kriterien seiner Benennung nach dem Unionsrecht oder dem Recht der Mitgliedstaaten vorgesehen
           werden.
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           h) Auftragsverarbeiter
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Auftragsverarbeiter ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, die
           personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet.
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           i) Empfänger
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Empfänger ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, der
           personenbezogene Daten offengelegt werden, unabhängig davon, ob es sich bei ihr um einen Dritten handelt oder
           nicht. Behörden, die im Rahmen eines bestimmten Untersuchungsauftrags nach dem Unionsrecht oder dem Recht der
           Mitgliedstaaten möglicherweise personenbezogene Daten erhalten, gelten jedoch nicht als Empfänger.
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           j) Dritter
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Dritter ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle außer der
           betroffenen Person, dem Verantwortlichen, dem Auftragsverarbeiter und den Personen, die unter der
           unmittelbaren Verantwortung des Verantwortlichen oder des Auftragsverarbeiters befugt sind, die
           personenbezogenen Daten zu verarbeiten.
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           k) Einwilligung
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Einwilligung ist jede von der betroffenen Person freiwillig für den bestimmten Fall in informierter Weise und
           unmissverständlich abgegebene Willensbekundung in Form einer Erklärung oder einer sonstigen eindeutigen
           bestätigenden Handlung, mit der die betroffene Person zu verstehen gibt, dass sie mit der Verarbeitung der sie
           betreffenden personenbezogenen Daten einverstanden ist.
-        </div>
+        </ItemText>
 
-        <div class="item-subtitle mt-12">
+        <ItemTitle size="2" class="mt-12">
           2. Name und Anschrift des für die Verarbeitung Verantwortlichen
-        </div>
-        <div class="item-text wrapped mt-8">
+        </ItemTitle>
+        <ItemText class="wrapped mt-8">
           Verantwortlicher im Sinne der Datenschutz-Grundverordnung, sonstiger in den Mitgliedstaaten der Europäischen
           Union geltenden Datenschutzgesetze und anderer Bestimmungen mit datenschutzrechtlichem Charakter ist die:
           <br/>
@@ -162,12 +160,12 @@
           <br/>Tel.: 01749393321
           <br/>E-Mail: vorstand@weidmannsheil-lieth.de
           <br/>Website: www.weidmannsheil-klein-nordende.de
-        </div>
+        </ItemText>
 
-        <div class="item-subtitle mt-12">
+        <ItemTitle size="2" class="mt-12">
           3. Erfassung von allgemeinen Daten und Informationen
-        </div>
-        <div class="item-text wrapped mt-8">
+        </ItemTitle>
+        <ItemText class="wrapped mt-8">
           Die Internetseite der Schützenbrüderschaft Weidmannsheil Klein Nordende Lieth v. 1919 e.V. erfasst mit jedem
           Aufruf der Internetseite durch eine betroffene Person oder ein automatisiertes System eine Reihe von
           allgemeinen Daten und Informationen. Diese allgemeinen Daten und Informationen werden in den Logfiles des
@@ -190,12 +188,12 @@
           Schutzniveau für die von uns verarbeiteten personenbezogenen Daten sicherzustellen. Die anonymen Daten der
           Server-Logfiles werden getrennt von allen durch eine betroffene Person angegebenen personenbezogenen Daten
           gespeichert.
-        </div>
+        </ItemText>
 
-        <div class="item-subtitle mt-12">
+        <ItemTitle size="2" class="mt-12">
           4. Routinemäßige Löschung und Sperrung von personenbezogenen Daten
-        </div>
-        <div class="item-text wrapped mt-8">
+        </ItemTitle>
+        <ItemText class="wrapped mt-8">
           Der für die Verarbeitung Verantwortliche verarbeitet und speichert personenbezogene Daten der betroffenen
           Person nur für den Zeitraum, der zur Erreichung des Speicherungszwecks erforderlich ist oder sofern dies durch
           den Europäischen Richtlinien- und Verordnungsgeber oder einen anderen Gesetzgeber in Gesetzen oder
@@ -204,26 +202,26 @@
           einem
           anderen zuständigen Gesetzgeber vorgeschriebene Speicherfrist ab, werden die personenbezogenen Daten
           routinemäßig und entsprechend den gesetzlichen Vorschriften gesperrt oder gelöscht.
-        </div>
+        </ItemText>
 
-        <div class="item-subtitle mt-12">
+        <ItemTitle size="2" class="mt-12">
           5. Rechte der betroffenen Person
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemTitle>
+        <ItemTitle size="3" class="mt-8">
           a) Recht auf Bestätigung
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Jede betroffene Person hat das vom Europäischen Richtlinien- und Verordnungsgeber eingeräumte Recht, von dem
           für die Verarbeitung Verantwortlichen eine Bestätigung darüber zu verlangen, ob sie betreffende
           personenbezogene Daten verarbeitet werden. Möchte eine betroffene Person dieses Bestätigungsrecht in Anspruch
           nehmen, kann sie sich hierzu jederzeit an ein Vorstandsmitglied des für die Verarbeitung Verantwortlichen
           wenden.
           wenden.
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           b) Recht auf Auskunft
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und
           Verordnungsgeber gewährte Recht, jederzeit von dem für die Verarbeitung Verantwortlichen unentgeltliche
           Auskunft über die zu seiner Person gespeicherten personenbezogenen Daten und eine Kopie dieser Auskunft zu
@@ -252,22 +250,22 @@
           im Übrigen das Recht zu, Auskunft über die geeigneten Garantien im Zusammenhang mit der Übermittlung zu
           erhalten. Möchte eine betroffene Person dieses Auskunftsrecht in Anspruch nehmen, kann sie sich hierzu
           jederzeit an ein Vorstandsmitglied des für die Verarbeitung Verantwortlichen wenden.
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           c) Recht auf Berichtigung
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und
           Verordnungsgeber gewährte Recht, die unverzügliche Berichtigung sie betreffender unrichtiger personenbezogener
           Daten zu verlangen. Ferner steht der betroffenen Person das Recht zu, unter Berücksichtigung der Zwecke der
           Verarbeitung, die Vervollständigung unvollständiger personenbezogener Daten - auch mittels einer ergänzenden
           Erklärung - zu verlangen. Möchte eine betroffene Person dieses Berichtigungsrecht in Anspruch nehmen, kann sie
           sich hierzu jederzeit an ein Vorstandsmitglied des für die Verarbeitung Verantwortlichen wenden.
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           d) Recht auf Löschung (Recht auf Vergessen werden)
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und
           Verordnungsgeber gewährte Recht, von dem Verantwortlichen zu verlangen, dass die sie betreffenden
           personenbezogenen Daten unverzüglich gelöscht werden, sofern einer der folgenden Gründe zutrifft und soweit
@@ -300,11 +298,11 @@
           personenbezogenen Daten oder von Kopien oder Replikationen dieser personenbezogenen Daten verlangt hat, soweit
           die Verarbeitung nicht erforderlich ist. Das Vorstandsmitglied der Schützenbrüderschaft Weidmannsheil Klein
           Nordende Lieth v. 1919 e.V. wird im Einzelfall das Notwendige veranlassen.
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           e) Recht auf Einschränkung der Verarbeitung
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und
           Verordnungsgeber gewährte Recht, von dem Verantwortlichen die Einschränkung der Verarbeitung zu verlangen,
           wenn eine der folgenden Voraussetzungen gegeben ist:
@@ -327,11 +325,11 @@
           Einschränkung von personenbezogenen Daten, die bei der Schützenbrüderschaft Weidmannsheil Klein Nordende Lieth
           v. 1919 e.V. gespeichert sind, verlangen möchte, kann sie sich hierzu jederzeit an ein Vorstandsmitglied des
           für die Verarbeitung Verantwortlichen wenden. Dieser wird die Einschränkung der Verarbeitung veranlassen.
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           f) Recht auf Datenübertragbarkeit
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und
           Verordnungsgeber gewährte Recht, die sie betreffenden personenbezogenen Daten, welche durch die betroffene
           Person einem Verantwortlichen bereitgestellt wurden, in einem strukturierten, gängigen und maschinenlesbaren
@@ -347,11 +345,11 @@
           machbar ist und sofern hiervon nicht die Rechte und Freiheiten anderer Personen beeinträchtigt werden. Zur
           Geltendmachung des Rechts auf Datenübertragbarkeit kann sich die betroffene Person jederzeit an ein
           Vorstandsmitglied der Schützenbrüderschaft Weidmannsheil Klein Nordende Lieth v. 1919 e.V. wenden.
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           g) Recht auf Widerspruch
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und
           Verordnungsgeber gewährte Recht, aus Gründen, die sich aus ihrer besonderen Situation ergeben, jederzeit gegen
           die Verarbeitung sie betreffender personenbezogener Daten, die aufgrund von Art. 6 Abs. 1 Buchstaben e oder f
@@ -379,11 +377,11 @@
           ferner frei, im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft, ungeachtet der
           Richtlinie 2002/58/EG, ihr Widerspruchsrecht mittels automatisierter Verfahren auszuüben, bei denen technische
           Spezifikationen verwendet werden.
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           h) Automatisierte Entscheidungen im Einzelfall einschließlich Profiling
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und
           Verordnungsgeber gewährte Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung -
           einschließlich Profiling - beruhenden Entscheidung unterworfen zu werden, die ihr gegenüber rechtliche Wirkung
@@ -403,22 +401,22 @@
           <br/>Möchte die betroffene Person Rechte mit Bezug auf automatisierte Entscheidungen geltend machen, kann sie
           sich
           hierzu jederzeit an ein Vorstandsmitglied des für die Verarbeitung Verantwortlichen wenden.
-        </div>
-        <div class="item-smaller-title mt-8">
+        </ItemText>
+        <ItemTitle size="3" class="mt-8">
           i) Recht auf Widerruf einer datenschutzrechtlichen Einwilligung
-        </div>
-        <div class="item-text wrapped mt-4">
+        </ItemTitle>
+        <ItemText class="wrapped mt-4">
           Jede von der Verarbeitung personenbezogener Daten betroffene Person hat das vom Europäischen Richtlinien- und
           Verordnungsgeber gewährte Recht, eine Einwilligung zur Verarbeitung personenbezogener Daten jederzeit zu
           widerrufen.
           <br/>Möchte die betroffene Person ihr Recht auf Widerruf einer Einwilligung geltend machen, kann sie sich
           hierzu jederzeit an ein Vorstandsmitglied des für die Verarbeitung Verantwortlichen wenden.
-        </div>
+        </ItemText>
 
-        <div class="item-subtitle mt-12">
+        <ItemTitle size="2" class="mt-12">
           6. Rechtsgrundlage der Verarbeitung
-        </div>
-        <div class="item-text wrapped mt-8">
+        </ItemTitle>
+        <ItemText class="wrapped mt-8">
           Art. 6 I lit. a DS-GVO dient unserem Verein als Rechtsgrundlage für Verarbeitungsvorgänge, bei denen wir eine
           Einwilligung für einen bestimmten Verarbeitungszweck einholen. Ist die Verarbeitung personenbezogener Daten
           zur Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist, erforderlich, wie dies
@@ -441,32 +439,32 @@
           Gesetzgeber besonders erwähnt wurden. Er vertrat insoweit die Auffassung, dass ein berechtigtes Interesse
           anzunehmen sein könnte, wenn die betroffene Person ein Kunde des Verantwortlichen ist (Erwägungsgrund 47 Satz
           2 DS-GVO).
-        </div>
+        </ItemText>
 
-        <div class="item-subtitle mt-12">
+        <ItemTitle size="2" class="mt-12">
           7. Berechtigte Interessen an der Verarbeitung, die von dem Verantwortlichen oder einem Dritten verfolgt
           werden.
-        </div>
-        <div class="item-text wrapped mt-8">
+        </ItemTitle>
+        <ItemText class="wrapped mt-8">
           Basiert die Verarbeitung personenbezogener Daten auf Artikel 6 I lit. f DS-GVO ist unser berechtigtes
           Interesse die Durchführung unserer Vereinstätigkeit zugunsten des Wohlergehens all unserer Mitglieder.
-        </div>
+        </ItemText>
 
-        <div class="item-subtitle mt-12">
+        <ItemTitle size="2" class="mt-12">
           8. Dauer, für die die personenbezogenen Daten gespeichert werden
-        </div>
-        <div class="item-text wrapped mt-8">
+        </ItemTitle>
+        <ItemText class="wrapped mt-8">
           Das Kriterium für die Dauer der Speicherung von personenbezogenen Daten ist die jeweilige gesetzliche
           Aufbewahrungsfrist. Nach Ablauf der Frist werden die entsprechenden Daten routinemäßig gelöscht, sofern sie
           nicht mehr zur Vertragserfüllung oder Vertragsanbahnung erforderlich sind.
-        </div>
+        </ItemText>
 
-        <div class="item-subtitle mt-12">
+        <ItemTitle size="2" class="mt-12">
           9. Gesetzliche oder vertragliche Vorschriften zur Bereitstellung der personenbezogenen Daten; Erforderlichkeit
           für den Vertragsabschluss; Verpflichtung der betroffenen Person, die personenbezogenen Daten bereitzustellen;
           mögliche Folgen der Nichtbereitstellung
-        </div>
-        <div class="item-text wrapped mt-8">
+        </ItemTitle>
+        <ItemText class="wrapped mt-8">
           Wir klären Sie darüber auf, dass die Bereitstellung personenbezogener Daten zum Teil gesetzlich vorgeschrieben
           ist (z.B. Steuervorschriften) oder sich auch aus vertraglichen Regelungen (z.B. Angaben zum Vertragspartner)
           ergeben kann. Mitunter kann es zu einem Vertragsschluss erforderlich sein, dass eine betroffene Person uns
@@ -479,23 +477,23 @@
           gesetzlich oder vertraglich vorgeschrieben oder für den Vertragsabschluss erforderlich ist, ob eine
           Verpflichtung besteht, die personenbezogenen Daten bereitzustellen, und welche Folgen die Nichtbereitstellung
           der personenbezogenen Daten hätte.
-        </div>
+        </ItemText>
 
-        <div class="item-subtitle mt-12">
+        <ItemTitle size="2" class="mt-12">
           10. Bestehen einer automatisierten Entscheidungsfindung
-        </div>
-        <div class="item-text wrapped mt-8 pb-16">
+        </ItemTitle>
+        <ItemText class="wrapped mt-8 pb-16">
           Als verantwortungsbewusster Verein verzichten wir auf eine automatische Entscheidungsfindung oder ein
           Profiling.
-        </div>
+        </ItemText>
 
         <hr/>
 
-        <div class="item-text wrapped text-center pt-20 pb-4">
+        <ItemText class="wrapped text-center pt-20 pb-4">
           Quelle: Diese Datenschutzerklärung wurde durch den Datenschutzerklärungs-Generator der DGD Deutsche
           Gesellschaft für Datenschutz GmbH, die als Externer Datenschutzbeauftragter Dortmund tätig ist, in Kooperation
           mit dem Kölner Datenschutz Anwalt Christian Solmecke erstellt.
-        </div>
+        </ItemText>
       </div>
     </div>
   </div>

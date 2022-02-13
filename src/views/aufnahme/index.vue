@@ -3,24 +3,22 @@
     <heading label="Aufnahme" :buttons="buttonData"/>
     <div class="content">
       <div class="item">
-        <h3 class="item-subtitle text-center mt-8">
+        <ItemTitle size="2" class="text-center mt-8">
           Hallo!
-        </h3>
-        <p class="item-text text-center mt-6">
+        </ItemTitle>
+        <ItemText class="text-center mt-6">
           Du möchtest dem Verein beitreten?
           <br/>Dann bist du hier genau richtig.
           <br/>
           <br/>Weiter unten folgen einige Formulare, die du herunterladen und ausfüllen kannst.
           <br/>Bring diese einfach nächstes Mal zum Training mit!
-        </p>
+        </ItemText>
       </div>
     </div>
     <div class="content" id="formulare">
       <div class="item">
-        <h2 class="item-title effects fade-in">Formulare</h2>
-        <div class="item-divider-container">
-          <div class="item-divider effects draw-to-right"></div>
-        </div>
+        <ItemTitle class="effects fade-in">Formulare</ItemTitle>
+        <ItemDivider />
         <div class="item-links pt-20">
           <a class="item-link" :href="admissionApplyUrl" target="_blank">
             Aufnahmeantrag
@@ -38,13 +36,11 @@
     </div>
     <div class="content" id="zusatz">
       <div class="item">
-        <h2 class="item-title effects fade-in">Ergänzungen</h2>
-        <div class="item-divider-container">
-          <div class="item-divider effects draw-to-right"></div>
-        </div>
-        <p class="item-text pt-18 text-center">
+        <ItemTitle class="effects fade-in">Ergänzungen</ItemTitle>
+        <ItemDivider />
+        <ItemText class="pt-18 text-center">
           Falls du noch nicht volljährig bist, dann lass bitte deine Eltern noch diesen Zettel zusätzlich ausfüllen.
-        </p>
+        </ItemText>
         <div class="item-links mt-4">
           <a class="item-link" :href="youthAdmissionApplyUrl" target="_blank">
             Anhang Aufnahmeantrag
@@ -54,10 +50,8 @@
     </div>
     <div class="content" id="weiteres">
       <div class="item">
-        <h2 class="item-title effects fade-in">Weiteres</h2>
-        <div class="item-divider-container">
-          <div class="item-divider effects draw-to-right"></div>
-        </div>
+        <ItemTitle class="effects fade-in">Weiteres</ItemTitle>
+        <ItemDivider />
         <div class="item-links pt-20">
           <a class="item-link" :href="youthTrainingUrl" target="_blank">
             Probetraining Jugend
@@ -67,9 +61,9 @@
             Einwilligung Datenschutz Unternehmen
           </a>
         </div>
-        <div class="item-text text-center mt-10 mb-4">
+        <ItemText class="text-center mt-10 mb-4">
           Schau dir ruhig mal unsere neue Vereinssatzung an!
-        </div>
+        </ItemText>
         <div class="item-links">
           <a class="item-link" :href="statuteUrl" target="_blank">
             Vereinssatzung

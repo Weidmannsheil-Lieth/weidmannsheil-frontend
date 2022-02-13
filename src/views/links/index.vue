@@ -3,14 +3,12 @@
     <heading label="Links" :buttons="buttonData"/>
     <div class="content">
       <div class="item">
-        <div class="item-title effects fade-in">Verlinkungen</div>
-        <div class="item-divider-container">
-          <div class="item-divider effects draw-to-right"></div>
-        </div>
-        <div class="item-text mt-14 text-center">
+        <ItemTitle class="effects fade-in">Verlinkungen</ItemTitle>
+        <ItemDivider />
+        <ItemText class="mt-14 text-center">
           Die hier verwendeten Wappen und Logos sind rechtlich geschützt.
           <br/>Die Verwendung bedarf der Zustimmung des Inhabers.
-        </div>
+        </ItemText>
         <link-row class="mt-16"/>
       </div>
     </div>

@@ -1,26 +1,25 @@
 <template>
   <div class="content leadership pb-1" id="leitung">
     <div class="item">
-      <h2 class="item-title effects fade-in">Leitung</h2>
-      <div class="item-divider-container">
-        <div class="item-divider effects draw-to-right"></div>
-      </div>
-      <div class="item-row pt-14 justify-center">
-        <div
+      <ItemTitle class="effects fade-in">Leitung</ItemTitle>
+      <ItemDivider />
+      <ItemRow class="pt-14 justify-center">
+        <ItemCol
+          size="3"
           v-for="(administration, index) in administrations"
           :key="index"
-          class="item-col-3 text-center pb-10 effects fade-in"
+          class="text-center pb-10 effects fade-in"
           :class="getFadeInDelayClass(index)"
         >
           <div class="item-image" style="max-width: 300px; margin: 0 auto">
             <img :src="administration.image" alt=""/>
           </div>
-          <p class="item-subtitle pt-5 pb-2 text-center">{{ administration.name }}</p>
-          <p class="item-text pb-5 whitespace-pre-line">
+          <ItemTitle size="2" class="pt-5 pb-2 text-center">{{ administration.name }}</ItemTitle>
+          <ItemText class="pb-5 whitespace-pre-line">
             {{ administration.roles }}
-          </p>
-        </div>
-      </div>
+          </ItemText>
+        </ItemCol>
+      </ItemRow>
     </div>
   </div>
 </template>

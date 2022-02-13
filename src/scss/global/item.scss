@@ -33,6 +33,7 @@
 .item-text {
   font-size: $fontSize;
   letter-spacing: 0.35px;
+  line-height: 150%;
   width: 100%;
   margin: 0 auto;
   color: #232323;
@@ -116,8 +117,16 @@
     }
   }
 
-  .item-col-text {
-    width: 100%;
+  .item-col {
+    .item-col-text-wrapper {
+      height: 100%;
+      display: flex;
+      align-items: center;
+
+      .item-col-text {
+        width: 100%;
+      }
+    }
   }
 }
 

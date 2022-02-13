@@ -7,29 +7,29 @@
       <div class="item" v-else>
 
         <div v-if="redirect">
-          <div class="item-text text-center">
+          <ItemText class="text-center">
             Durch drücken des unteren Knopfes wirst du auf
-          </div>
-          <div class="item-smaller-title my-2 py-2 text-center link">
+          </ItemText>
+          <ItemTitle size="3" class="my-2 py-2 text-center link">
             {{ redirect.link }}
-          </div>
-          <div class="item-text text-center">
+          </ItemTitle>
+          <ItemText class="text-center">
             weitergeleitet.
             <br/>
             <br/>Die Schützenbrüderschaft ist für die Inhalte externer Seiten nicht verantwortlich.
-          </div>
+          </ItemText>
           <a :href="redirect.link" class="redirect-button">
             <span>Weiterleiten</span>
           </a>
-          <div v-if="redirect.comment" class="item-text text-center mt-12">
+          <ItemText v-if="redirect.comment" class="text-center mt-12">
             {{ redirect.comment }}
-          </div>
+          </ItemText>
         </div>
 
         <div v-else>
-          <div class="item-text text-center py-10">
+          <ItemText class="text-center py-10">
             Die Weiterleitung konnte nicht gefunden werden.
-          </div>
+          </ItemText>
         </div>
       </div>
     </div>

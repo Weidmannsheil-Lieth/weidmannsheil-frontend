@@ -3,14 +3,12 @@
     <heading label="Hoppla!" :buttons="buttonData"/>
     <div class="content pb-20">
       <div class="item">
-        <div class="item-title">Nicht gefunden</div>
-        <div class="item-divider-container">
-          <div class="item-divider effects draw-to-right"></div>
-        </div>
-        <div class="item-text mt-14 text-center">
+        <ItemTitle>Nicht gefunden</ItemTitle>
+        <ItemDivider />
+        <ItemText class="mt-14 text-center">
           Die angeforderte Seite konnte leider nicht gefunden werden.
           <br />Bitte überprüfe nochmal die eingegebene URL!
-        </div>
+        </ItemText>
         <div class="item-links mt-6">
           <a class="item-link" href="/">
             Zurück zur Startseite

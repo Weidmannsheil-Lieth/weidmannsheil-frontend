@@ -5,9 +5,9 @@
 
       <div id="anzeige">
         <gallery-viewer v-if="!isLoading && album" :album="album"/>
-        <p v-if="!isLoading && !album" class="loader-spacer item-text text-center">
+        <ItemText v-if="!isLoading && !album" class="loader-spacer text-center">
           Momentan sind keine Einträge vorhanden.
-        </p>
+        </ItemText>
       </div>
 
       <div id="alben">
@@ -18,10 +18,8 @@
             v-for="(entry, entryIndex) in galleryData"
             :key="entryIndex"
           >
-            <h2 class="item-title">{{ entry.year }}</h2>
-            <div class="item-divider-container">
-              <div class="item-divider effects draw-to-right"></div>
-            </div>
+            <ItemTitle>{{ entry.year }}</ItemTitle>
+            <ItemDivider />
             <div class="item-links">
               <div
                 class="item-link-container"

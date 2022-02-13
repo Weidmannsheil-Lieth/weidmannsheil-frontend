@@ -13,12 +13,12 @@
     </div>
     <div class="scroll-over">
       <div class="item">
-        <h2 class="item-title text-center pt-20 effects fade-in">
+        <ItemTitle class="text-center pt-20 effects fade-in">
           Willkommen
-        </h2>
-        <p class="item-smaller-title text-center mt-2 pb-20 effects fade-in">
+        </ItemTitle>
+        <ItemTitle size="3" class="text-center mt-2 pb-20 effects fade-in">
           auf der offiziellen Webseite der Schützenbrüderschaft Weidmannsheil!
-        </p>
+        </ItemTitle>
       </div>
       <div class="divider"/>
       <notices/>
@@ -26,7 +26,7 @@
       <news/>
       <div class="divider"/>
       <div class="item pt-16 pb-8">
-        <h2 class="item-title text-center effects fade-in">Königsgespann</h2>
+        <ItemTitle class="text-center effects fade-in">Königsgespann</ItemTitle>
         <rout class="pb-20 pt-16"/>
       </div>
     </div>

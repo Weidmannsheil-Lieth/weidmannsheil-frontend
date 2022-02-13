@@ -62,7 +62,7 @@ router.afterEach((to) => {
   store.dispatch('menu/toggleMenu');
   Vue.nextTick().then(() => {
     if (to.params.scroll) {
-      VueScrollTo.scrollTo('#' + to.params.scroll)
+      setTimeout(() => VueScrollTo.scrollTo('#' + to.params.scroll, {duration: 1000}), 500)
     } else {
       window.scrollTo(0, 0);
     }
