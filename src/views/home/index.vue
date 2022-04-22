@@ -16,16 +16,9 @@
         <ItemTitle class="text-center pt-20 effects fade-in">
           Willkommen
         </ItemTitle>
-        <ItemTitle size="3" class="text-center mt-2 effects fade-in">
+        <ItemTitle size="3" class="text-center mt-2 pb-20 effects fade-in">
           auf der offiziellen Webseite der Schützenbrüderschaft Weidmannsheil!
         </ItemTitle>
-        <ItemText class="effects fade-in pb-20 mt-10 text-center">
-          Wir würden uns sehr über deine Unterstützung bei <a
-            href="https://region-bewegen.de/spk-suedholstein-20-20/contributors/digitalisierung-der-schuetzenhalle/?item=1841"
-            class="item-link"
-            target="_blank" rel="nofollow noopener noreferrer"
-          >region-bewegen.de</a> freuen!
-        </ItemText>
       </div>
       <div class="divider"/>
       <notices/>
