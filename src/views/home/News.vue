@@ -31,9 +31,7 @@
             <ItemTitle size="3">
               {{ article.title }}
             </ItemTitle>
-            <ItemText class="pt-3 whitespace-pre-line">
-              {{ article.content }}
-            </ItemText>
+            <ItemText v-html="simpleMarkdown(article.content)" class="pt-3 whitespace-pre-line" />
           </ItemColText>
         </ItemCol>
 

@@ -24,9 +24,7 @@
         <ItemTitle size="2" class="pl-2 pb-4 effects fade-in">
           {{ notice.title }}
         </ItemTitle>
-        <ItemText class="pt-2 effects fade-in whitespace-pre-line">
-          {{ notice.content }}
-        </ItemText>
+        <ItemText v-html="simpleMarkdown(notice.content)" class="pt-2 effects fade-in whitespace-pre-line"/>
       </div>
     </div>
   </div>
