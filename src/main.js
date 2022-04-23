@@ -20,7 +20,6 @@ import {library} from '@fortawesome/fontawesome-svg-core';
 import {faChessKing, faChessKnight, faChessPawn, faChessQueen} from '@fortawesome/free-solid-svg-icons';
 import {faInstagram} from '@fortawesome/free-brands-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome';
-import SimpleMarkdown from "@/mixins/SimpleMarkdown";
 
 library.add(faChessKing, faChessQueen, faChessKnight, faChessPawn, faInstagram);
 Vue.component('font-awesome-icon', FontAwesomeIcon)
@@ -28,7 +27,6 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.use(VueScrollTo);
 Vue.use(VueMeta);
 Vue.mixin(Effects);
-Vue.mixin(SimpleMarkdown);
 
 Vue.config.productionTip = false;
 
