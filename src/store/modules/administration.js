@@ -8,7 +8,7 @@ const state = {
     {
       image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/stefan-mohr.jpg",
       name: "Stefan Mohr",
-      roles: "2. Vorsitzende"
+      roles: "2. Vorsitzender"
     },
     {
       image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/frank-nickel.jpg",
@@ -41,7 +41,7 @@ const state = {
       roles: "1. Sportwart"
     },
     {
-      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/default.jpg",
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/jan-sbresny.jpg",
       name: "Jan Sbresny",
       roles: "2. Sportwart"
     },
@@ -51,7 +51,7 @@ const state = {
       roles: "3. Sportwart"
     },
     {
-      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/default.jpg",
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/finn-ole-merz.jpg",
       name: "Finn-Ole Merz",
       roles: "2. Jugendwart"
     },

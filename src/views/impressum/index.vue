@@ -16,7 +16,7 @@
         </ItemTitle>
         <ItemText class="wrapped mt-8">
           1. Vorsitzende: Sabine Nickel
-          <br/>2. Vorsitzender: Wolfgang Vollstedt
+          <br/>2. Vorsitzender: Stefan Mohr
         </ItemText>
         <ItemTitle size="2" class="mt-14">
           Kontakt
