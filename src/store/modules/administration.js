@@ -36,19 +36,14 @@ const state = {
       roles: "2. Kassenwart"
     },
     {
-      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/arne-hauenstein.jpg",
-      name: "Arne Hauenstein",
-      roles: "1. Sportwart"
-    },
-    {
       image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/jan-sbresny.jpg",
       name: "Jan Sbresny",
-      roles: "2. Sportwart"
+      roles: "1. Sportwart"
     },
     {
       image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/guenther-henning.jpg",
       name: "Günther Henning",
-      roles: "3. Sportwart"
+      roles: "2. Sportwart"
     },
     {
       image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/finn-ole-merz.jpg",
