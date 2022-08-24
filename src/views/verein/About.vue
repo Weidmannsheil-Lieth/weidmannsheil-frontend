@@ -44,7 +44,7 @@
           </div>
         </ItemCol>
       </ItemRow>
-      <div class="item-image pt-20 effects size-fade-in pt-sm-8">
+      <div class="item-image pt-12 effects size-fade-in pt-sm-8">
         <img src="/assets/verein/verein.jpg" alt/>
       </div>
     </div>

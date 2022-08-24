@@ -15,6 +15,7 @@ Vue.component('ItemColText', () => import("@/components/item/ItemColText"));
 Vue.component('ItemTitle', () => import("@/components/item/ItemTitle"));
 Vue.component('ItemText', () => import("@/components/item/ItemText"));
 Vue.component('ItemDivider', () => import("@/components/item/ItemDivider"));
+Vue.component('ItemVideo', () => import("@/components/item/ItemVideo"));
 
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {faChessKing, faChessKnight, faChessPawn, faChessQueen} from '@fortawesome/free-solid-svg-icons';

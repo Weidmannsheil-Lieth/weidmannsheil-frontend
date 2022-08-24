@@ -6,7 +6,7 @@
       <ItemRow class="mt-14 mt-sm-4">
         <ItemCol class="effects fade-from-left text-center">
           <ItemColText>
-            <ItemTitle size="3" class="pt-7">
+            <ItemTitle size="3">
               Jugendgruppe
             </ItemTitle>
             <ItemText class="pt-2">
@@ -32,7 +32,7 @@
       <ItemRow class="mt-16" reverse>
         <ItemCol class="effects fade-from-right text-center">
           <ItemColText>
-            <ItemTitle size="3" class="pt-7 pt-sm-1">
+            <ItemTitle size="3">
               Frühschoppen
             </ItemTitle>
             <ItemText class="pt-2">

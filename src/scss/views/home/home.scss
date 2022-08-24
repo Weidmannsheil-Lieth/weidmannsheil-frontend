@@ -43,6 +43,18 @@
       .hero-title {
         font-size: 5.25vw;
         font-weight: normal;
+
+        @media only screen and (max-width: $displayLarge) {
+          & {
+            font-size: 7vw;
+          }
+        }
+
+        @media only screen and (max-width: $displaySmall) {
+          & {
+            font-size: 8.25vw;
+          }
+        }
       }
     }
   }
@@ -80,17 +92,5 @@
     .news, .notices {
       max-width: ($displayLarge + $displayMedium) / 2;
     }
-  }
-}
-
-@media only screen and (max-width: $displayLarge) {
-  .home .hero .hero-content {
-    font-size: 7vw;
-  }
-}
-
-@media only screen and (max-width: $displaySmall) {
-  .home .hero .hero-content {
-    font-size: 8.5vw;
   }
 }

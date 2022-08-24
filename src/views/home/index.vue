@@ -21,6 +21,18 @@
         </ItemTitle>
       </div>
       <div class="divider"/>
+      <template v-if="showDayOfSport">
+        <div class="item">
+          <ItemTitle class="text-center pt-16 pb-16 pb-sm-12 effects fade-in">
+            Tag des Sportes 2022
+          </ItemTitle>
+
+          <ItemVideo class="pb-16">
+            <source src="/assets/videos/trailer.mp4" type="video/mp4">
+          </ItemVideo>
+        </div>
+        <div class="divider"/>
+      </template>
       <notices/>
       <div class="divider"/>
       <news/>
@@ -43,7 +55,8 @@ export default {
   data() {
     return {
       image: null,
-      title: null
+      title: null,
+      showDayOfSport: new Date() < new Date('2022-09-05')
     };
   },
   mounted() {

@@ -60,9 +60,6 @@
 }
 
 .item-image {
-  width: 92.5%;
-  margin: 0 auto;
-
   img {
     width: 100%;
   }
@@ -75,6 +72,12 @@
   .item-divider {
     background: #999;
     height: 1px;
+  }
+}
+
+.item-video {
+  video {
+    width: 100%;
   }
 }
 
@@ -154,9 +157,5 @@
     .item-col-3, .item-col-4, .item-col-5, .item-col-6, .item-col-7 {
       width: 100%;
     }
-  }
-
-  .item-image {
-    width: 100%;
   }
 }

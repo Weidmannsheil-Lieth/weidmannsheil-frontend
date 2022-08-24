@@ -11,7 +11,7 @@
           class="text-center pb-10 effects fade-in"
           :class="getFadeInDelayClass(index)"
         >
-          <div class="item-image" style="max-width: 300px; margin: 0 auto">
+          <div class="item-image" style="max-width: 300px; margin: 0 auto; width: 95%;">
             <img :src="administration.image" alt=""/>
           </div>
           <ItemTitle size="2" class="pt-5 pb-2 text-center">{{ administration.name }}</ItemTitle>
