@@ -21,10 +21,10 @@
         :key="index"
         class="mb-14"
       >
-        <ItemTitle size="2" class="pl-2 pb-4 effects fade-in">
+        <ItemTitle size="2" class="pb-4 effects fade-in">
           {{ notice.title }}
         </ItemTitle>
-        <ItemText v-html="notice.renderedContent" class="markdown-container pt-2 effects fade-in"/>
+        <ItemText v-html="notice.content" class="markdown-container pt-2 effects fade-in"/>
       </div>
     </div>
   </div>

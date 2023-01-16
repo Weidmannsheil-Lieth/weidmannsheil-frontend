@@ -31,7 +31,7 @@
             <ItemTitle size="3">
               {{ article.title }}
             </ItemTitle>
-            <ItemText v-html="article.renderedContent" class="markdown-container pt-3" />
+            <ItemText v-html="article.content" class="markdown-container pt-3" />
           </ItemColText>
         </ItemCol>
 
