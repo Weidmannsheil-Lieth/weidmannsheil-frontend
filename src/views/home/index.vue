@@ -21,9 +21,9 @@
         </ItemTitle>
       </div>
       <div class="divider"/>
-      <notices/>
-      <div class="divider"/>
       <news/>
+      <div class="divider"/>
+      <notices/>
       <div class="divider"/>
       <div class="item pt-16 pb-8">
         <ItemTitle class="text-center effects fade-in">Königsgespann</ItemTitle>

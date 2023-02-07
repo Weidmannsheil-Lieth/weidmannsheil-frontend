@@ -4,7 +4,7 @@
       class="text-center effects fade-in"
       :class="!isLoading ? 'mb-14 mb-sm-8' : ''"
     >
-      Wichtige Hinweise
+      Aktuelles
     </ItemTitle>
 
     <loader v-if="isLoading" class="py-20"/>
