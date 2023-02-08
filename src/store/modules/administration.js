@@ -26,13 +26,18 @@ const state = {
       roles: "2. Schriftführerin"
     },
     {
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/sylvia-willms.jpg",
+      name: "Sylvia Willms",
+      roles: "Damenleitung"
+    },
+    {
       image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/torben-sbresny.jpg",
       name: "Torben Sbresny",
       roles: "1. Kassenwart"
     },
     {
-      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/karl-ludwig-overkamp.jpg",
-      name: "Karl-Ludwig Overkamp",
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/sascha-reimer.jpg",
+      name: "Sascha Reimer",
       roles: "2. Kassenwart"
     },
     {
@@ -41,9 +46,14 @@ const state = {
       roles: "1. Sportwart"
     },
     {
+      image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/frank-reintjes.jpg",
+      name: "Frank Reintjes",
+      roles: "2. Sportwart"
+    },
+    {
       image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/guenther-henning.jpg",
       name: "Günther Henning",
-      roles: "2. Sportwart"
+      roles: "3. Sportwart"
     },
     {
       image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/finn-ole-merz.jpg",
