@@ -2,24 +2,32 @@
   <div class="content leadership pb-1" id="leitung">
     <div class="item">
       <ItemTitle class="effects fade-in">Leitung</ItemTitle>
-      <ItemDivider />
-      <ItemRow class="pt-14 justify-center">
-        <ItemCol
-          size="3"
-          v-for="(administration, index) in administrations"
-          :key="index"
-          class="text-center pb-10 effects fade-in"
-          :class="getFadeInDelayClass(index)"
+      <ItemDivider/>
+      <div class="pt-14">
+        <ItemRow
+          v-for="(administrationRow, rowIndex) in administrations"
+          :key="rowIndex"
+          class="justify-center"
         >
-          <div class="item-image" style="max-width: 300px; margin: 0 auto; width: 95%;">
-            <img :src="administration.image" alt=""/>
-          </div>
-          <ItemTitle size="2" class="pt-5 pb-2 text-center">{{ administration.name }}</ItemTitle>
-          <ItemText class="pb-5 whitespace-pre-line">
-            {{ administration.roles }}
-          </ItemText>
-        </ItemCol>
-      </ItemRow>
+          <ItemCol
+            v-for="(administration, index) in administrationRow"
+            :key="index"
+            size="3"
+            class="text-center pb-10 effects fade-in"
+            :class="getFadeInDelayClass(index)"
+          >
+            <div class="px-2">
+              <div class="item-image" style="max-width: 300px; margin: 0 auto; width: 95%;">
+                <img :src="administration.image" alt=""/>
+              </div>
+              <ItemTitle size="2" class="pt-5 pb-2 text-center">{{ administration.name }}</ItemTitle>
+              <ItemText class="pb-5 whitespace-pre-line">
+                {{ administration.roles }}
+              </ItemText>
+            </div>
+          </ItemCol>
+        </ItemRow>
+      </div>
     </div>
   </div>
 </template>

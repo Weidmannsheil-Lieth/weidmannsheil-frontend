@@ -89,23 +89,27 @@
 
   .item-col-5 {
     width: 38%;
+    max-width: 38%;
   }
 
   .item-col-6 {
     width: 47%;
+    max-width: 47%;
   }
 
   .item-col-7 {
     width: 55%;
+    max-width: 55%;
   }
 
   .item-col-4 {
     width: 30%;
+    max-width: 30%;
   }
 
   .item-col-3 {
     width: 24%;
-    margin: 0 auto;
+    max-width: 24%;
   }
 
   .item-col-image {
@@ -156,6 +160,7 @@
 
     .item-col-3, .item-col-4, .item-col-5, .item-col-6, .item-col-7 {
       width: 100%;
+      max-width: unset;
     }
   }
 }
