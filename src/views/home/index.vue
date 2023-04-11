@@ -20,6 +20,27 @@
           auf der offiziellen Webseite der Schützenbrüderschaft Weidmannsheil!
         </ItemTitle>
       </div>
+
+      <div class="divider"/>
+
+      <div class="pt-16 pb-8">
+        <ItemTitle class="text-center effects fade-in mb-14 mb-sm-8">
+          Betriebe & Vereinsschießen
+        </ItemTitle>
+
+        <div class="text-center effects fade-in mb-2">
+          <a href="/assets/downloads/einladung-betriebe-vereinsschiessen.pdf" target="_blank" class="item-link">
+            Einladung
+          </a>
+        </div>
+
+        <div class="text-center effects fade-in mb-14">
+          <a href="/assets/downloads/anmeldung-betriebe-vereinsschiessen.pdf" target="_blank" class="item-link">
+            Anmeldung
+          </a>
+        </div>
+      </div>
+
       <div class="divider"/>
       <news/>
       <div class="divider"/>
@@ -39,7 +60,11 @@ import Notices from "@/views/home/Notices";
 import News from "@/views/home/News";
 
 export default {
-  components: {News, Notices, Rout},
+  components: {
+    News,
+    Notices,
+    Rout
+  },
   data() {
     return {
       image: null,
