@@ -7,6 +7,10 @@
       Aktuelles
     </ItemTitle>
 
+    <div class="item-image pb-16">
+      <img src="/assets/flyer.jpg" alt="Flyer" />
+    </div>
+
     <loader v-if="isLoading" class="py-20"/>
 
     <div v-else-if="notices.length === 0">
