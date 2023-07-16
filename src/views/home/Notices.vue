@@ -4,20 +4,6 @@
       Aktuelles
     </ItemTitle>
 
-    <ItemRow :class="!isLoading ? 'mb-sm-8 mb-14' : ''">
-      <ItemCol size="6">
-        <div class="item-col-image">
-          <img src="/assets/flyers/flyer1.jpeg" alt="Flyer Schützenfest 1" />
-        </div>
-      </ItemCol>
-
-      <ItemCol size="6">
-        <div class="item-col-image">
-          <img src="/assets/flyers/flyer2.jpeg" alt="Flyer Schützenfest 2" />
-        </div>
-      </ItemCol>
-    </ItemRow>
-
     <loader v-if="isLoading" class="py-20"/>
 
     <div v-else-if="notices.length === 0">
