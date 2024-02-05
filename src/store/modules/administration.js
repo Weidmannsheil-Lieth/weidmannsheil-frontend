@@ -25,8 +25,8 @@ const state = {
         roles: "1. Schriftführerin\n1. Jugendwartin"
       },
       {
-        image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/kathrin-heilmann.jpg",
-        name: "Kathrin Heilmann",
+        image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/vera-jedtberg-henning.jpg",
+        name: "Vera Jedtberg-Henning",
         roles: "2. Schriftführerin"
       },
       {
@@ -48,8 +48,8 @@ const state = {
         roles: "1. Sportwart"
       },
       {
-        image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/frank-reintjes.jpg",
-        name: "Frank Reintjes",
+        image: process.env.VUE_APP_BACKEND_URL + "assets/leadership/martin-rosenbusch.jpg",
+        name: "Martin Rosenbusch",
         roles: "2. Sportwart"
       },
       {
